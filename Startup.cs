@@ -32,8 +32,9 @@ namespace SoftwareDevProject
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello Timo from Viacheslav!");
+                {  
+                    
+                    await context.Response.WriteAsync("Hello Timo from Viacheslav! This is a test message!");
                 });
             });
         }
