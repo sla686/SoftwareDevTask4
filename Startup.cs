@@ -34,7 +34,7 @@ namespace SoftwareDevProject
                 endpoints.MapGet("/", async context =>
                 {  
                     
-                    await context.Response.WriteAsync("Hello Timo from Viacheslav! This is a test message!");
+                    await context.Response.WriteAsync("Hello Timo from Viacheslav! This message is modified for the Task 4");
                 });
             });
         }
